@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 5rem;
+    background-color:rgba(0, 0, 0,.9);
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.name{
+    margin: 0 15px 0 15px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+.name:hover{
+    transform: scale(1.1);
+}
+.name input{
+    border-radius: 10px;
+    height: 2rem;
+    width: 15rem;
+}
+.name input:hover{
+    border: 2px solid blue;
+}
+.srbtn{
+    margin-left: -5px;
+}
+.prev-button{
+    display: none;
+}
+.next-button{
+    display: none;
+}
+.slider {
+    margin: auto;
+    width: 1500px;
+    /* height: 10rem; */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  button {
+    margin: 5px;
+  }
+.dis{
+    margin: auto;
+    margin-top: 20px;
+    width: 1500px;
+    height: 10rem;
+}
+.dis img{
+    height: 100%;
+    width: 100%;
+}
+.six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1500px;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+    width: 420px;
+    height: 600px;
+    /* background-color: black; */
+}
+.card img{
+    width: 100%;
+    height: 90%;
+}
+.card p{
+    text-align: center;
+}
+.custom-slider {
+    width: 1500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  margin: 5px;
+  display: none;
+}
+.short{
+    margin-top: 50px;
+}
+.short p{
+    text-align: center;
+    font-size: 5em;
+}
+.shortrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shortrow img{
+    margin:30px 20px 0 20px;
+    width: 230px;
+    height: 300px;
+    border-radius: 20ex;
+}
+.shape{
+    width: 100%;
+}
+.shaperow{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+    
+}
+.shaperow img{
+    height: 100%;
+    width: 100%;
+    margin: 40px 30px 0 30px;
+}
+.sport {
+    margin-top: 40px; ;
+    width: 100%;
+    
+
+}
+.item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sport p{
+    font-size: 3em;
+    text-align: center;
+    
+
+}
+.item img{
+    margin: 0 10px 0 10px;
+    height: 350px;
+    width: 250px;
+}
+.footer{
+    margin-top:  60px; ;
+    width: 100%;
+    height: 20rem;
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0,.2);
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    font-size: 13px;
+    /* background-color: rgb(94, 120, 235); */
+}
+.table p{
+    letter-spacing: 1px;
+}
+.th{
+    padding-top: 60px;
+    padding-right: 60px;
+    font-size: larger;
+    padding-bottom: 30px;
+}
+.table td{
+    padding-right: 60px;
+    /* padding-bottom: 5px; */
+}
+.shortrow img{
+    transition: .2s;
+}
+.shortrow img:hover{
+    transform: scale(1.1);
+}
+.shaperow img{
+    transition: .2s;
+}
+.shaperow img:hover{
+    transform: scale(1.05);
+}
+.item img{
+    transition: .2s;
+}
+.item img:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.slider{
+    /* padding: 1rem; */
+    margin-left: 1rem;
+    width: 98%;
+    height: 35rem;
+    overflow: hidden;
+    position: relative;
+    /* margin: auto; */
+}
+
+.slider img{
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    border-radius: 25px;
+}
+.slider img:first-child {
+    display: block;
+}
+
+button {
+    margin: 5px;
+    display: none;
+}
+.dewali img{
+    margin-left: 1rem;
+    width: 98%;
+    border-radius: 25px;
+}
+.trends{
+
+    margin-top: 4rem;
+    width: 100%;
+    height: 13rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trendcard{
+    height: 100%;
+    width: 11rem;
+    /* background-color: black; */
+    margin: 0 15px 0 15px;
+}
+.trendcard p{
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.trendcard img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color:rgba(0, 0, 0,.9);
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+.coverpic{
+    margin-top: 4rem;
+    text-align: center;
+    width: 100%;
+}
+.coverpic img{
+    width: 90%;
+}
+.belowTrend{
+    margin-top: 5rem;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bCard{
+    width: 17rem;
+    height: 100%;
+    /* background-color: black; */
+    margin: 0 30px 0 30px;
+
+}
+.bCard p{
+    /* margin-top: 1rem; */
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.bCard img{
+    width: 100%;
+    height: 90%;
+}
+.ylw{
+    width: 100%;
+    height: 3rem;
+    /* background-color: yellow; */
+    margin-bottom: 1.5rem;
+}
+
+.uppderBlw{
+    margin-top: 2rem;
+    width: 100%;
+}
+.uppderBlw img{
+    width: 100%;
+}
+.norCard{
+    margin-top: 2rem;
+    width: 100%;
+    height: 19rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.cardd{
+    height: 100%;
+    width: 19%;
+    background-color: black;
+    margin: 0 5px 0 5px;
+}
+.cardd img{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name{
+    margin: 0 15px 0 15px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+.name:hover{
+    transform: scale(1.1);
+}
+.name input{
+    border-radius: 10px;
+    height: 2rem;
+    width: 15rem;
+}
+.name input:hover{
+    border: 2px solid rgba(0, 0, 0,.9) ;
+}
+.srbtn{
+    margin-left: -5px;
+}
+.winter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winter img{
+    
+    width: 85%;
+    height: 30rem;
+}
+.wintercl{
+    margin-top: 3rem;
+    width: 100%;
+    height: 25rem;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cll{
+    height: 100%;
+    width: 17%;
+    margin: 0 20px 0 20px;
+    
+}
+.cll p{
+    font-weight: 100;
+    margin-top: 20px;
+}
+.p{
+    margin-top: 2px;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    font-size: large;
+}
+.cll img{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+}
+.topBrnd{
+    margin-top: 4rem;
+    margin-left: 7rem;
+    width: 85%;
+    height: 15rem;
+    /* background-color: red; */
+}
+.logos{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 15rem;
+    /* background-color: black; */
+}
+.ll{
+    
+    height: 100%;
+    width: 18%;
+    /* background-color: red; */
+    margin: 0 15px 0 15px;
+}
+.ll img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+.txt{
+    font-size: 30px;
+}
+.footer{
+    margin-top: 7rem;
+    width: 100%;
+    height: 10rem;
+    /* background-color:rgb( 94, 120, 235); */
+    /* background-color: rgba(34, 31, 31, 0.618); */
+}
+.qniq{
+    width: 100%;
+    height: 7.5rem;
+    /* background-color: rgb(55, 228, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.box{
+    height: 100%;
+    width:8rem ;
+    text-align: center;
+    color: white;
+    /* background-color: black; */
+    margin: 0 20px 0 20px;
+    padding-top: 10px;
+}
+.box img{
+    height: 70%;
+    width: 100%;
+    color: white;
+}
+.box p{
+    /* margin-top: -3px; */
+    color: black;
+    font-size: larger;
+}
+.ptabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    font-size: 13px;
+    /* background-color: rgb(94, 120, 235); */
+}
+.table p{
+    letter-spacing: 1px;
+}
+.th{
+    padding-top: 60px;
+    padding-right: 60px;
+    font-size: larger;
+    padding-bottom: 30px;
+}
+.table td{
+    padding-right: 60px;
+    /* padding-bottom: 5px; */
+}
+.footerr{
+    background-color: rgba(0, 0, 0,.2);
+    height: 30rem;
+}
+.trendcard img{
+    transition: .2s;
+}
+.trendcard img:hover{
+    transform: scale(1.09);
+} 
+.bCard{
+    transition: .2s;
+}
+.bCard:hover{
+    transform: scale(1.1);
+}
+.cll{
+    transition: .2s;
+}
+.cll:hover{
+    transform: scale(1.08);
+}
+.shape{
+    width: 100%;
+}
+.shaperow{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+    
+}
+.shaperow img{
+    height: 100%;
+    width: 100%;
+    margin: 40px 30px 0 30px;
+}
+.shaperow img{
+    transition: .2s;
+}
+.shaperow img:hover{
+    transform: scale(1.07);
+}
+.ll img{
+    transition: .2s;
+}
+.ll img:hover{
+    transform: scale(1.08);
+    border: 5px solid red;
+}
+.TT p{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.item{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sport p{
+    font-size: 3em;
+    text-align: center;
+    
+
+}
+.item img{
+    margin: 0 10px 0 10px;
+    height: 350px;
+    width: 250px;
+}
+.item img{
+    transition: .2s;
+}
+.item img:hover{
+    transform: scale(1.08);
+}
+.hip{
+    margin-top: 4rem;
+}

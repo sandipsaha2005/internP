@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 9rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* pointer-events: none; */
+    /* padding-left: 5rem; */
+}
+.GG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.log p{
+    color: white;
+    font-size: 3.5em;
+}
+.lo p{
+    margin-top: 10px;
+    color: white;
+}
+.menu span{
+    color: white;
+    cursor: pointer;
+    font-size: 2em;
+    transition: .1s;
+}
+.menu span:hover{
+    transform: scale(1.2);
+}
+.profile span{
+    margin: 0 10px 0 10px;
+}
+.mainArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.card{
+    margin: 0 20px 0 20px;
+    height: 400px;
+    width: 280px;
+    
+    /* background-color: black; */
+}
+.exp{
+    display: none;
+}
+.exph{
+    height: 40px;
+    width: 180px;
+    margin: auto;
+    cursor: pointer;
+    display: none;
+    background-color: black;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    transform: translateY(-4rem);
+    margin-bottom: 8rem;
+}
+ 
+.exp p{
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+}
+.card img{
+    height: 380px;
+    width: 280px;
+    
+}
+.card:hover .exp{
+    border: 5px solid black;
+    display: block;
+    transform: translateY(-2.5rem);
+    background-color: black;
+    /* width: 200px; */
+    text-align: center;
+    /* transform: translateX(2.5rem); */
+    
+}
+.footer{
+    margin-top:  60px; ;
+    width: 100%;
+    height: 20rem;
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0,.2);
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    font-size: 13px;
+    /* background-color: rgb(94, 120, 235); */
+}
+.table p{
+    letter-spacing: 1px;
+}
+.th{
+    padding-top: 60px;
+    padding-right: 60px;
+    font-size: larger;
+    padding-bottom: 30px;
+}
+.table td{
+    padding-right: 60px;
+    /* padding-bottom: 5px; */
+}
+.r1a img{
+    /* transition: 1s; */
+}
+.r1a img:hover{
+    content: url(kurta/r1_a_b.webp);
+    transition: 1s;
+
+}
+.r1b img:hover{
+    content: url(kurta/r1_b_b.webp);
+
+}
+.r1c img:hover{
+    content: url(kurta/r1_c_b.webp);
+
+}
+.r1d img:hover{
+    content: url(kurta/r1_d_b.webp);
+}
+
+.r2a img:hover{
+    content: url(kurta/r2_a_b.webp);
+}
+.r2b img:hover{
+    content: url(kurta/r2_b_b.webp);
+}
+.r2c img:hover{
+    content: url(kurta/r2_c_b.webp);
+}
+.r2d img:hover{
+    content: url(kurta/r2_d_b.webp);
+}
+
+.r3a img:hover{
+    content: url(kurta/r3_a_b.webp);
+}
+.r3b img:hover{
+    content: url(kurta/r3_b_b.webp);
+}
+.r3c img:hover{
+    content: url(kurta/r3_c_b.webp);
+}
+.r3d img:hover{
+    content: url(kurta/r3_d_b.webp);
+}
+
+.r4a img:hover{
+    content: url(kurta/r4_a_b.webp);
+}
+.r4b img:hover{
+    content: url(kurta/r4_b_b.webp);
+}
+.r4c img:hover{
+    content: url(kurta/r4_c_b.webp);
+}
+.r4d img:hover{
+    content: url(kurta/r4_d_b.webp);
+}
+
+.r5a img:hover{
+    content: url(m_shirt/r2_n_b.webp);
+}
+.r5b img:hover{
+    content: url(m_shirt/r2_o_b.webp);
+}
+.r5c img:hover{
+    content: url(m_shirt/r2_p_b.webp);
+}
+.r5d img:hover{
+    content: url(m_shirt/r2_q_b.webp);
+}
+
+.r6a img:hover{
+    content: url(m_shirt/r2_r_b.webp);
+}
+.r6b img:hover{
+    content: url(m_shirt/r2_s_b.webp);
+}
+.r6c img:hover{
+    content: url(m_shirt/r2_t_b.webp);
+}
+.r6d img:hover{
+    content: url(m_shirt/r2_u_b.webp);
+}
+
+.r7a img:hover{
+    content: url(m_shirt/r2_v_b.webp);
+}
+.r7b img:hover{
+    content: url(m_shirt/r2_w_b.webp);
+}
+.r7c img:hover{
+    content: url(m_shirt/r2_x_b.webp);
+}
+.r7d img:hover{
+    content: url(m_shirt/r2_y_b.webp);
+}
+
+.r8a img:hover{
+    content: url(shirt/R1_A_B.webp);
+}
+.r8b img:hover{
+    content: url(shirt/R1_B_B.jpeg);
+}
+.r8c img:hover{
+    content: url(shirt/R1_C_B.webp);
+}
+.r8d img:hover{
+    content: url(shirt/R1_D_B.webp);
+}
+

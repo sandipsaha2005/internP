@@ -1,0 +1,107 @@
+
+
+.container{
+    height: 420px;
+    width: 1400px;
+    /* margin-top: 60rem; */
+    margin-left: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    
+}
+body{
+    background-image: url(assets/HAYAT.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.smoke section{
+    height: 100vh;
+    background: #000;
+}
+.smoke section h1{
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    color: #ddd;
+    text-align: center;
+    font-size: 5em;
+}
+    
+.slide{
+    height: 420px;
+    width: 1400px;
+    margin-left: 60px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    color: white;
+    /* margin-top:5rem ; */
+    justify-content: space-between;
+    animation: slider 3s forwards;
+    z-index: 1;
+}
+
+
+@keyframes slider{
+    /* 0%{margin-top:60rem;};
+    100%{margin-top: 10rem;}; */
+    0%{transform: translateY(60rem);}
+    100%{transform: translateY(5rem);}
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    /* transform: translate(-70%, -85%); */
+  }
+.centered P{
+    font-size: large;
+}
+.left{
+    height: 100%;
+    width: 45%;
+    /* background-color: red; */
+    transition: .3s;
+    position: relative;
+}
+.left:hover{
+    border: 10px  solid pink;
+    transform: scale(1.1);
+}
+.left img{
+    height: auto;
+    width: 100%;
+}
+.right{
+    height: 100%;
+    width: 45%;
+    /* background-color: yellow; */
+    transition: .3s;
+    position: relative;
+}
+.right:hover{
+    border: 7px  solid rgb(0, 149, 255);
+    transform: scale(1.1);
+}
+.right img{
+    height: auto;
+    width: 100%;
+}
+/* .btn{
+    height: 5rem;
+    width: 10rem;
+   
+    position: relative;
+    left: auto;
+} */
+
